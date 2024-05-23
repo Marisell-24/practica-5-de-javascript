@@ -1,3 +1,5 @@
+
+
 // ---------Ejercicio de lectura y escritura--------
 const mostrarValor = () => {
     //getElementById = obtener elementos del ID
@@ -5,7 +7,7 @@ const mostrarValor = () => {
 
     let valor1 = input1.value
     console.log(valor1)
-    
+
     const span = document.getElementById('input-valor')
     console.log(span)
     console.log(span.innerHTML)
