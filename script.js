@@ -17,25 +17,25 @@ console.log(-1.123)*/
 //tipos d datos
 /* declara una variable */
 let nombre = "Marisell"
-console.log(nombre)
+// console.log(nombre)
 nombre = "juan"
-console.log(nombre)
+//console.log(nombre)
 
 /* declara una constante */
 
 const pi = 3.1416
 
 
-let numero1 = 7;
-let numero2 = 9;
-let resultado = numero1 + numero2
+const numero1 = 7;
+const numero2 = 9;
+const resultado = numero1 + numero2
 //console.log("resultado", resultado, "algo")
 
 
 //Strings - texto
-const Ciuda = "Bogota"
+const ciudad = "Bogota"
 const pais1 = "Colombia"
-const pais2 = "Arentina"
+const pais2 = "Argentina"
 //console.log(Ciuda, pais1, pais2)
 
 
@@ -88,7 +88,7 @@ let usuario = {
 //console.log(usuario.ubicacion.latitud)
 amigos:["andres", "pepito"]
 
-
+usuario.edad = 49
 
 // tipos de datos vacios 
 // null - nulo
@@ -172,7 +172,7 @@ let numero3 = 20
 if(numero3 > 0 && numero < 10) {
 console.log("nuestro numero esta entre el 0 y el 10")
 } else{
-    console.log("nuestro numero no esta entreel 0 y el 10")
+    console.log("nuestro numero no esta entre el 0 y el 10")
 }
 
 
@@ -220,11 +220,11 @@ const sumar = () => {
  let resultadoSuma = sumar(5, 10)
  //console.log("resultado de la suma1",resultadoSuma)
 
-console.log ("reutado de la suma2", sumar(50,15))
+console.log ("resultado de la suma2", sumar(50,15))
 
-console.log ("reutado de la suma2", sumar(100,8))
-console.log ("reutado de la suma2", sumar(20,15))
-console.log ("reutado de la suma2", sumar(5,53))
+console.log ("resultado de la suma2", sumar(100,8))
+console.log ("resultado de la suma2", sumar(20,15))
+console.log ("resultado de la suma2", sumar(5,53))
 
 
 
